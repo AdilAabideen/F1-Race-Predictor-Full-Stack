@@ -1,0 +1,46 @@
+__pycache__/
+
+# Ignore environment files
+server/.env
+server/.env.*
+
+# Ignore all .env files in any subdirectory of server
+server/**/.env
+server/**/.env.*
+
+# Python virtual environment
+server/venv/
+server/.venv/
+
+# Python cache files
+server/__pycache__/
+server/**/__pycache__/
+server/*.pyc
+
+# Logs
+server/*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Dependency directories
+server/node_modules/
+
+# Distribution directories
+server/dist/
+server/build/
+
+# Temporary files
+server/*.tmp
+server/*.bak
+server/*.swp
